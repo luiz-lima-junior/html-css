@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div.header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+div.body{
+    background-color: lightgreen;
+}
+
+div.title {
+    flex-basis: 30vw;
+}
+
+div.options {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 35em;
+    flex: 0 0 auto;
+}
+
+div.options > * {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.body {
+    padding: 8px;
+}
+
+div.title-content {
+    background-color: lightskyblue;
+}
